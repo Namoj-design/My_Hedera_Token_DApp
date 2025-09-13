@@ -1,19 +1,26 @@
-# Hedera dApp Days
+# 🌐 My Hedera Token DApp
 
-# Pre-requisites:
+A decentralized application (dApp) built on **Hedera Hashgraph** that enables users to:
 
-- Have a GitHub account: https://github.com/
-- Install the HashPack wallet (browser extension): https://www.hashpack.app/
-- Create a Hedera testnet account: https://portal.hedera.com/register
-- Read the article [How to Start Developing on Hedera: Back to the Basics](https://hedera.com/blog/how-to-develop-on-hedera-back-to-the-basics)
+- 🔑 Connect their **HashPack Wallet**  
+- 💰 Mint Fungible & Non-Fungible Tokens (NFTs)  
+- 📤 Send tokens between accounts  
+- 📜 Deploy and interact with smart contracts  
 
-# Slides:
+---
 
-- [Hedera Rocks - dApp Day Slides.pdf](https://github.com/ed-marquez/hedera-dapp-days/blob/main/slides/Hedera%20Rocks%20-%20dApp%20Day%20Slides.pdf)
+## ✨ Features
 
-# What's next after this dApp day?
+✅ **Wallet Integration** – Seamlessly connect with [HashPack](https://www.hashpack.app/)  
+✅ **Token Minting** – Create both **fungible tokens** and **NFTs** with metadata support  
+✅ **Token Transfers** – Send and receive tokens securely on the Hedera testnet  
+✅ **Smart Contracts** – Deploy Solidity contracts and interact with them through the dApp  
 
-- Join the [Hedera Developer Discord](http://hedera.com/discord)
-- Try [examples](https://docs.hedera.com/guides/getting-started/try-examples), [tutorials](https://docs.hedera.com/guides/resources/tutorials), and [demo applications](https://docs.hedera.com/guides/resources/demo-applications)
-- Check out the [Getting Started Portal](https://hedera.com/get-started)
-- Join us for a another [dApp Day](https://hedera.com/dapp-days), [hackathon, or event](https://hedera.com/events)
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Namoj-design/My_Hedera_Token_DApp.git
+cd My_Hedera_Token_DApp
