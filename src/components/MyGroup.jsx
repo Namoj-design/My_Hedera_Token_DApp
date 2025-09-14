@@ -2,11 +2,23 @@ import React from "react";
 import MyButton from "./MyButton.jsx";
 import MyText from "./MyText.jsx";
 
-function MyGroup(props) {
+function MyGroup({
+	text,
+	link,
+	fcn,
+	buttonLabel,
+	groupClassName = "",
+	buttonProps = {},
+	textProps = {},
+	children,
+	...rest
+}) {
 	return (
-		<div>
-			<MyText text={props.text} link={props.link} />
-			<MyButton fcn={props.fcn} buttonLabel={props.buttonLabel} />
+		<div className={groupClassName} {...rest}>
+			<MyText text={text} link={link} {...textProps} />
+			<MyButton fcn={fcn} buttonLabel={buttonLabel} {...buttonProps}>
+				{children}
+			</MyButton>
 		</div>
 	);
 }
